@@ -1,0 +1,1 @@
+art_page_url = "https://autodemo.testoneo.com/en/9-art"

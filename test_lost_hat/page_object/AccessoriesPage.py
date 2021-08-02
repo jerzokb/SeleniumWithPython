@@ -1,0 +1,1 @@
+accessories_page_url = "https://autodemo.testoneo.com/en/6-accessories"
