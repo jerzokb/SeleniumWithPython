@@ -37,3 +37,10 @@ def get_selected_product_name(driver_instance):
 
 def get_selected_product_price(driver_instance):
     return driver_instance.find_element_by_xpath(selectedProductPrice).text
+
+def click_add_to_cart_button(driver_instance):
+    driver_instance.find_element_by_xpath(buttonAddToCart).click()
+
+def add_product_to_cart(driver_instance, index):
+    click_on_product_item(driver_instance, index)
+    click_add_to_cart_button(driver_instance)
